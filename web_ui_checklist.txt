@@ -1,0 +1,43 @@
+File: web_ui_checklist.txt
+Author: Marcin Czajkowski
+Purpose: To have a reference list/guideline of a start point, of testing web-pages
+Resources:
+	-	http://www.softwaretestingclass.com/complete-checklist-for-website-testing/
+	-	http://www.guru99.com/cookie-testing-tutorial-with-sample-test-cases.html
+	-	http://www.testingexcellence.com/how-to-create-update-and-delete-cookies-in-webdriver/
+	
+This is a list that can be a general guideline for web-page testing:
+1. Functionality testing:
+	a.	Validation testing:
+		-	check for a valid HTML use W3C validator: https://validator.w3.org/
+	
+	b.	Links/URL testing:
+		-	internal links: links that linke the webpage internally.
+			I.e. all 'Home Page' and 'About Us' instances
+		-	external links: all references to external web pages
+		-	email links: check that the local email client opens and email style is valid
+		-	check for broken links/dead links
+	
+	c.	Web form testing:
+		-	user input and forms tests. Input all data and submit it. Validate all inputs/choices.
+	
+	d.	Database testing:
+		-	validate database that the website is accessing and populating
+		-	validate that the webpage is able to handle the data processing
+		
+	e. Cookies testing:
+		-	testing cookies (persistant and non-persistent/session cookies) for:
+			-	disabling
+			-	corrupting
+			-	encryption
+			-	writing with different browsers
+			-	selective rejecting
+			-	access to cookies
+			-	overuse
+			-	testing with different settings.
+				Testing should be done to check that website is 
+				working with different cookie setting.
+			-	categorize cookies seperately. 
+				Cookies should not be kept in the same category
+				as viruses, spam or spyware.
+	f.	 			
