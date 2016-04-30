@@ -7,7 +7,7 @@ Resources:
 	-	http://www.testingexcellence.com/how-to-create-update-and-delete-cookies-in-webdriver/
 	
 This is a list that can be a general guideline for web-page testing:
-1. Functionality testing:
+1.	Functionality testing:
 	a.	Validation testing:
 		-	check for a valid HTML use W3C validator: https://validator.w3.org/
 	
@@ -20,12 +20,13 @@ This is a list that can be a general guideline for web-page testing:
 	
 	c.	Web form testing:
 		-	user input and forms tests. Input all data and submit it. Validate all inputs/choices.
+		-	required fields and optional fields validations
 	
 	d.	Database testing:
 		-	validate database that the website is accessing and populating
 		-	validate that the webpage is able to handle the data processing
-		
-	e. Cookies testing:
+	
+	e.	Cookies testing:
 		-	testing cookies (persistant and non-persistent/session cookies) for:
 			-	disabling
 			-	corrupting
@@ -40,4 +41,12 @@ This is a list that can be a general guideline for web-page testing:
 			-	categorize cookies seperately. 
 				Cookies should not be kept in the same category
 				as viruses, spam or spyware.
-	f.	 			
+	f.	Error messeges testing:
+		-	40x and 50x messages/web-pages
+		
+	g.	Client-side testing:
+		-	check that any sensitive data is not stored in temporary internet files
+		-	check that sensitive information is encrypted when appropriate
+
+2.	Performance testing
+	a.	
