@@ -1,4 +1,4 @@
-File: web_ui_checklist.txt
+File: web_ui_testing_checklist.txt
 Author: Marcin Czajkowski
 Purpose: To have a reference list/guideline of a start point, of testing web-pages
 Resources:
