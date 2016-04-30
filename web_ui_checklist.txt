@@ -42,11 +42,64 @@ This is a list that can be a general guideline for web-page testing:
 				Cookies should not be kept in the same category
 				as viruses, spam or spyware.
 	f.	Error messeges testing:
-		-	40x and 50x messages/web-pages
+		-	40x and 50x error messages
 		
 	g.	Client-side testing:
 		-	check that any sensitive data is not stored in temporary internet files
 		-	check that sensitive information is encrypted when appropriate
 
 2.	Performance testing
-	a.	
+	a.	Speed, scalability and stability under variety of load conditions
+	b.	The main purpose is to find bottlenecks not defects
+	
+3. Web usability testing - black box / user POV testing:
+	a.	Accessibility:
+		-	site load time
+		-	font size and spacing 
+		-	use of flash  and addons
+		-	use of 40x and 50x error pages
+		
+	b.	Identity:
+		-	website/company logo placement
+		-	tags, favicons and identifications, i.e. contact information
+		
+	c.	Navigation:
+		-	can a user navigate to home page at any point?
+		-	is company logog linked to a home page?
+		-	are the navigation labels present and cosise?
+		-	is there a functional webpage search button provided?
+		
+	d.	Content:
+		-	cosistent use of headings <h1> <h2> etc.
+		-	critical content should be viewable in average resolution of 1024x786
+		-	consistent font styles
+		-	use of minigful titles and words
+		
+4.	Compatibility testing:
+	a.	check the webpages on various browsers:
+		-	Internet Explorer IE7 to IE11
+		-	Chrome
+		-	FireFox
+		-	Safari
+		-	Opera
+	b.	check the webpages on various OS platforms:
+		-	Windows XP, Vista, Windows 7, Windows 10
+		-	Linux
+		-	Mac
+	c.	check the webpages on various hardware configurations
+		-	Pentium
+		-	AMD
+		-	ARM
+	d.	check the webpages in  various network configurations
+	e.	check the webpages in various screen resolutions
+		
+5.	Web security testing:
+	a.	Penetration testing:
+		-	password cracking
+		-	URL manipulasion and XSS
+		-	SQL injections
+	b.	access to information regarding the webpages and servers:
+		-	is the server type and version hidden from direct view?
+		-	should the folder structure and any files be directly accessible?
+		-	are there the error pages set to default configuration (should not be)? 
+		
